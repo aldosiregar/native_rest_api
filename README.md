@@ -6,10 +6,12 @@ the table name is users with 4 column : user_id which is Auto-Increment, usernam
 
 how to use : 
 
-read all user = http://localhost/web/rest_api/index.php/user/read
+read all user = (localhost path)/rest_api/index.php/user/read
 
-create a user = http://localhost/web/rest_api/index.php/user/create?username=(insert name)&email=(insert email)&status(insert status, default=0)
+create a user = (localhost path)/rest_api/index.php/user/create?username=(insert name)&email=(insert email)&status(insert status, default=0)
 
-delete a user = http://localhost/web/rest_api/index.php/user/delete?id=(insert id)
+delete a user = (localhost path)/rest_api/index.php/user/delete?id=(insert id)
 
-modify a user = http://localhost/web/rest_api/index.php/user/update?id=(insert id)&username=(insert name)&email=(insert email)&status(insert status, default=0)
+modify a user = (localhost path)/rest_api/index.php/user/update?id=(insert id)&username=(insert name)&email=(insert email)&status(insert status, default=0)
+
+ps : i didnt host it so dont expect to use to call it on web  
